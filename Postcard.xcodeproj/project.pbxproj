@@ -13,6 +13,11 @@
 		7310B9D51B27A9F400D72633 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7310B9D41B27A9F400D72633 /* Images.xcassets */; };
 		7310B9D81B27A9F400D72633 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7310B9D61B27A9F400D72633 /* LaunchScreen.xib */; };
 		7310B9E41B27A9F400D72633 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7310B9E31B27A9F400D72633 /* PostcardTests.swift */; };
+		7342FC731B2F941700099FF2 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7342FC721B2F941700099FF2 /* SagradaFamilia.jpeg */; };
+		7342FC751B2F984400099FF2 /* Royal_Guard_Pilots_escorting_shuttle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7342FC741B2F984400099FF2 /* Royal_Guard_Pilots_escorting_shuttle.jpg */; };
+		7342FC771B2F988D00099FF2 /* TIE_Defender_SotG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7342FC761B2F988D00099FF2 /* TIE_Defender_SotG.jpg */; };
+		7342FC791B2F989F00099FF2 /* X-Wing-Atmospheric-Formation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7342FC781B2F989F00099FF2 /* X-Wing-Atmospheric-Formation.jpg */; };
+		7342FC7B1B2F999F00099FF2 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7342FC7A1B2F999F00099FF2 /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		7310B9DD1B27A9F400D72633 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7310B9E21B27A9F400D72633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7310B9E31B27A9F400D72633 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		7342FC721B2F941700099FF2 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		7342FC741B2F984400099FF2 /* Royal_Guard_Pilots_escorting_shuttle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Royal_Guard_Pilots_escorting_shuttle.jpg; sourceTree = "<group>"; };
+		7342FC761B2F988D00099FF2 /* TIE_Defender_SotG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TIE_Defender_SotG.jpg; sourceTree = "<group>"; };
+		7342FC781B2F989F00099FF2 /* X-Wing-Atmospheric-Formation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "X-Wing-Atmospheric-Formation.jpg"; sourceTree = "<group>"; };
+		7342FC7A1B2F999F00099FF2 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +100,11 @@
 		7310B9CB1B27A9F400D72633 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7342FC7A1B2F999F00099FF2 /* AlbertEinsteinStamp.jpg */,
+				7342FC741B2F984400099FF2 /* Royal_Guard_Pilots_escorting_shuttle.jpg */,
+				7342FC781B2F989F00099FF2 /* X-Wing-Atmospheric-Formation.jpg */,
+				7342FC761B2F988D00099FF2 /* TIE_Defender_SotG.jpg */,
+				7342FC721B2F941700099FF2 /* SagradaFamilia.jpeg */,
 				7310B9CC1B27A9F400D72633 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,7 +207,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7342FC771B2F988D00099FF2 /* TIE_Defender_SotG.jpg in Resources */,
+				7342FC791B2F989F00099FF2 /* X-Wing-Atmospheric-Formation.jpg in Resources */,
 				7310B9D31B27A9F400D72633 /* Main.storyboard in Resources */,
+				7342FC751B2F984400099FF2 /* Royal_Guard_Pilots_escorting_shuttle.jpg in Resources */,
+				7342FC7B1B2F999F00099FF2 /* AlbertEinsteinStamp.jpg in Resources */,
+				7342FC731B2F941700099FF2 /* SagradaFamilia.jpeg in Resources */,
 				7310B9D81B27A9F400D72633 /* LaunchScreen.xib in Resources */,
 				7310B9D51B27A9F400D72633 /* Images.xcassets in Resources */,
 			);
@@ -411,6 +431,7 @@
 				7310B9E91B27A9F400D72633 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7310B9EA1B27A9F400D72633 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +440,7 @@
 				7310B9EC1B27A9F400D72633 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
